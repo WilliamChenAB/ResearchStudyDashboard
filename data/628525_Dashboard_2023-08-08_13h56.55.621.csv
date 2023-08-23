@@ -1,0 +1,7 @@
+﻿NegativeStorySentences,Story.thisRepN,Story.thisTrialN,Story.thisN,Story.thisIndex,GetReady_Text.started,GetRead_Cross.started,GetReady_Text.stopped,GetRead_Cross.stopped,StorySentence_Text.started,Rating_Text.started,Rating_Response.started,Rating_Done.started,Rating_Response.response,Rating_Response.rt,Rating_Done.numClicks,Rating_Done.timesOn,Rating_Done.timesOff,TrialRea_NSB.started,TrialRea_Cue.started,participant,session,date,expName,psychopyVersion,frameRate,
+I have an exam coming up.,0,0,0,0,6.794196099974215,6.794196099974215,9.802850699983537,9.802850699983537,9.802850699983537,,,,,,,,,,,628525,001,2023-08-08_13h56.55.621,Dashboard,2023.1.2,360.17345951715924,
+I study for my exam day and night.,0,1,1,1,,,,,12.79815539997071,,,,,,,,,,,628525,001,2023-08-08_13h56.55.621,Dashboard,2023.1.2,360.17345951715924,
+I'm sleep deprived because I've been studying too much.,0,2,2,2,,,,,15.799048899905756,,,,,,,,,,,628525,001,2023-08-08_13h56.55.621,Dashboard,2023.1.2,360.17345951715924,
+I sleep through my alarms the day of my exam.,0,3,3,3,,,,,18.79778809985146,,,,,,,,,,,628525,001,2023-08-08_13h56.55.621,Dashboard,2023.1.2,360.17345951715924,
+I fail my exam and my class.,0,4,4,4,,,,,21.796705599874258,,,,,,,,,,,628525,001,2023-08-08_13h56.55.621,Dashboard,2023.1.2,360.17345951715924,
+,,,,,,,,,,24.808087999932468,24.808087999932468,25.935548200039193,2.0,1.1315450000111014,1,[0.34738630009815097],[0.3473894000053406],26.28342999983579,29.279304599855095,,,,,,,

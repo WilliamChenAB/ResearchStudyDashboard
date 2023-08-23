@@ -1,0 +1,939 @@
+5.0374 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002094F0B70A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002094F0B7040>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0.9216, 0.9216, 0.9216]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002094F0A8D60>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020955C4F700>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0377 	EXP 	window1: mouseVisible = True
+5.0378 	EXP 	window1: backgroundImage = ''
+5.0378 	EXP 	window1: backgroundFit = 'none'
+5.0379 	EXP 	window1: mouseVisible = False
+5.0379 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.0379 	EXP 	window1: recordFrameIntervals = False
+5.0649 	EXP 	window1: recordFrameIntervals = True
+5.0955 	EXP 	Screen (0) actual frame rate measured at 361.43Hz
+5.0955 	EXP 	window1: recordFrameIntervals = False
+6.6287 	EXP 	window1: mouseVisible = True
+6.6843 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.6914 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.6957 	EXP 	window1: mouseVisible = True
+6.7904 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.8042 	EXP 	window1: mouseVisible = True
+6.8201 	EXP 	window1: mouseVisible = True
+6.8408 	EXP 	window1: mouseVisible = True
+6.8454 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.8460 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.8480 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.8484 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.8517 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+6.8531 	EXP 	window1: mouseVisible = True
+6.9352 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.9467 	EXP 	window1: mouseVisible = True
+6.9471 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9480 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9504 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+6.9517 	EXP 	window1: mouseVisible = True
+7.0591 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.0703 	EXP 	window1: mouseVisible = True
+7.0710 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0721 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.0725 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0729 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0751 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.0765 	EXP 	window1: mouseVisible = True
+7.1464 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.1568 	EXP 	window1: mouseVisible = True
+7.1606 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1622 	EXP 	window1: mouseVisible = True
+7.2306 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.2408 	EXP 	window1: mouseVisible = True
+7.2507 	EXP 	window1: mouseVisible = True
+7.2533 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.2743 	EXP 	window1: mouseVisible = True
+7.2773 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.2779 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.2790 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.2793 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.2814 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.2826 	EXP 	window1: mouseVisible = True
+7.3511 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.3626 	EXP 	window1: mouseVisible = True
+7.3631 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.3635 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.3670 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.3684 	EXP 	window1: mouseVisible = True
+7.4830 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.4941 	EXP 	window1: mouseVisible = True
+7.4948 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.4959 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.4963 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.4966 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.4990 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.5009 	EXP 	window1: mouseVisible = True
+7.5733 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.5845 	EXP 	window1: mouseVisible = True
+7.5877 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.5894 	EXP 	window1: mouseVisible = True
+7.6693 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.6801 	EXP 	window1: mouseVisible = True
+7.6947 	EXP 	window1: mouseVisible = True
+7.6971 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.7165 	EXP 	window1: mouseVisible = True
+7.7194 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.7201 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.7212 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.7215 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.7236 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.7250 	EXP 	window1: mouseVisible = True
+7.8008 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.8140 	EXP 	window1: mouseVisible = True
+7.8146 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.8150 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.8176 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.8189 	EXP 	window1: mouseVisible = True
+7.8905 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.9017 	EXP 	window1: mouseVisible = True
+7.9024 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.9036 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.9040 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.9043 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.9073 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+7.9088 	EXP 	window1: mouseVisible = True
+7.9834 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.9951 	EXP 	window1: mouseVisible = True
+7.9987 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0003 	EXP 	window1: mouseVisible = True
+8.0746 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.0856 	EXP 	window1: mouseVisible = True
+8.0958 	EXP 	window1: mouseVisible = True
+8.0984 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1188 	EXP 	window1: mouseVisible = True
+8.1219 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1226 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1237 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.1241 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1266 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.1280 	EXP 	window1: mouseVisible = True
+8.2044 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.2165 	EXP 	window1: mouseVisible = True
+8.2171 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2175 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2202 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.2217 	EXP 	window1: mouseVisible = True
+8.2933 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.3041 	EXP 	window1: mouseVisible = True
+8.3048 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.3060 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.3064 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.3068 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.3094 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.3109 	EXP 	window1: mouseVisible = True
+8.3813 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.3927 	EXP 	window1: mouseVisible = True
+8.3964 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.3979 	EXP 	window1: mouseVisible = True
+8.4685 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.4796 	EXP 	window1: mouseVisible = True
+8.4915 	EXP 	window1: mouseVisible = True
+8.4941 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5140 	EXP 	window1: mouseVisible = True
+8.5175 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5182 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.5192 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.5196 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.5218 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.5233 	EXP 	window1: mouseVisible = True
+8.5942 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.6055 	EXP 	window1: mouseVisible = True
+8.6061 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6065 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6089 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.6104 	EXP 	window1: mouseVisible = True
+8.6830 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.6952 	EXP 	window1: mouseVisible = True
+8.6959 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6971 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.6975 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6979 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.7005 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.7019 	EXP 	window1: mouseVisible = True
+8.7744 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.7861 	EXP 	window1: mouseVisible = True
+8.7897 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7910 	EXP 	window1: mouseVisible = True
+8.8617 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.8723 	EXP 	window1: mouseVisible = True
+8.8827 	EXP 	window1: mouseVisible = True
+8.8855 	EXP 	Created BContinue_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='BContinue_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.9056 	EXP 	window1: mouseVisible = True
+8.9097 	EXP 	Created ConditionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConditionText', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.9104 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9117 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.9121 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9142 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+8.9159 	EXP 	window1: mouseVisible = True
+8.9906 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+9.0022 	EXP 	window1: mouseVisible = True
+9.0027 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0031 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0057 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+9.0073 	EXP 	window1: mouseVisible = True
+9.0821 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.5 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+9.0931 	EXP 	window1: mouseVisible = True
+9.0938 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0950 	EXP 	Created GetRead_Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([0.6549, 0.6549, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.6549, 0.6549, 0.6549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='GetRead_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.0954 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0958 	EXP 	Created NeutralStatement_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='NeutralStatement_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0981 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How negative are you feeling?', units='height', win=Window(...), wrapWidth=1)
+9.0995 	EXP 	window1: mouseVisible = True
+9.1704 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+9.1815 	EXP 	window1: mouseVisible = True
+9.1848 	EXP 	Created RegulationRating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='RegulationRating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1862 	EXP 	window1: mouseVisible = True
+9.2572 	EXP 	Created RegulationRating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.035, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='RegulationRating_Response', opacity=None, ori=0.0, pos=array([ 0.  , -0.14]), readOnly=False, self=UNKNOWN, size=array([1.4 , 0.15]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+9.2680 	EXP 	window1: mouseVisible = True
+9.2754 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	ConditionTextBox: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Trial_RatingResponse: markerPos = None
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: styleTweaks = []
+9.2791 	EXP 	Trial_RatingResponse: contrast = 1.0
+9.2791 	EXP 	Trial_RatingResponse: autoLog = True
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	Rating_Response: markerPos = None
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: styleTweaks = []
+9.2791 	EXP 	Rating_Response: contrast = 1.0
+9.2791 	EXP 	Rating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	RegulationRating_Response: markerPos = None
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: styleTweaks = []
+9.2791 	EXP 	RegulationRating_Response: contrast = 1.0
+9.2791 	EXP 	RegulationRating_Response: autoLog = True
+9.2791 	EXP 	BContinue_Text: autoDraw = True
+10.4577 	DATA 	Mouse: Left button down, pos=(1001,453)
+10.4771 	EXP 	BContinue_Text: autoDraw = False
+10.4771 	EXP 	RegulationRating_Response: markerPos = None
+10.4771 	EXP 	RegulationRating_Response: markerPos = None
+10.4771 	EXP 	RegulationRating_Text: autoDraw = True
+10.4771 	EXP 	RegulationRating_Response: autoDraw = True
+10.4771 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.4840 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.4904 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.4965 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5023 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5082 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5142 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5203 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5267 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5326 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5383 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5433 	DATA 	Mouse:  Left button up, pos=(1001,453)
+10.5443 	EXP 	RegulationRating_Response: markerPos = 3.1084656084656084
+10.5499 	EXP 	RegulationRating_Response: markerPos = 3.0
+11.1565 	DATA 	Mouse: Left button down, pos=(1320,437)
+11.1637 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.1697 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.1758 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.1818 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.1884 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.1944 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2003 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2067 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2126 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2184 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2245 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2309 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2366 	DATA 	Mouse:  Left button up, pos=(1320,437)
+11.2373 	EXP 	RegulationRating_Response: markerPos = 3.9523809523809526
+11.2426 	EXP 	RegulationRating_Response: markerPos = 4.0
+11.3770 	DATA 	Mouse: Left button down, pos=(844,363)
+11.3838 	EXP 	RegulationRating_Response: markerPos = 2.693121693121693
+11.3894 	EXP 	RegulationRating_Response: markerPos = 2.693121693121693
+11.3951 	EXP 	RegulationRating_Response: markerPos = 2.693121693121693
+11.4011 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4073 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4134 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4190 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4246 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4304 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4360 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4425 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4481 	DATA 	Mouse:  Left button up, pos=(843,363)
+11.4487 	EXP 	RegulationRating_Response: markerPos = 2.6904761904761907
+11.4544 	EXP 	RegulationRating_Response: markerPos = 3.0
+11.6214 	DATA 	Mouse: Left button down, pos=(549,403)
+11.6283 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6342 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6398 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6459 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6531 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6592 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6655 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6722 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6787 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6850 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6920 	EXP 	RegulationRating_Response: markerPos = 1.9126984126984128
+11.6978 	DATA 	Mouse:  Left button up, pos=(552,403)
+11.6985 	EXP 	RegulationRating_Response: markerPos = 1.9153439153439153
+11.7044 	EXP 	RegulationRating_Response: markerPos = 2.0
+11.9475 	DATA 	Mouse: Left button down, pos=(302,408)
+11.9532 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9594 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9657 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9723 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9788 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9855 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9922 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+11.9985 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0047 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0112 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0176 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0242 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0309 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0373 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0430 	DATA 	Mouse:  Left button up, pos=(302,408)
+12.0437 	EXP 	RegulationRating_Response: markerPos = 1.2592592592592593
+12.0499 	EXP 	RegulationRating_Response: markerPos = 1.0
+12.1854 	DATA 	Mouse: Left button down, pos=(746,402)
+12.1929 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.1993 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2054 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2119 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2180 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2241 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2309 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2375 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2436 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2501 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2563 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2620 	DATA 	Mouse:  Left button up, pos=(746,402)
+12.2627 	EXP 	RegulationRating_Response: markerPos = 2.433862433862434
+12.2686 	EXP 	RegulationRating_Response: markerPos = 2.0
+12.3995 	DATA 	Mouse: Left button down, pos=(1114,419)
+12.4068 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4128 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4187 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4244 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4302 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4358 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4418 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4487 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4546 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4604 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4661 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4718 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4785 	EXP 	RegulationRating_Response: markerPos = 3.4074074074074074
+12.4841 	DATA 	Mouse:  Left button up, pos=(1126,420)
+12.4849 	EXP 	RegulationRating_Response: markerPos = 3.4126984126984126
+12.4911 	EXP 	RegulationRating_Response: markerPos = 3.0
+12.6244 	DATA 	Mouse: Left button down, pos=(1429,420)
+12.6303 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6363 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6419 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6479 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6542 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6602 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6661 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6722 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6781 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6836 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6895 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.6955 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.7018 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.7077 	EXP 	RegulationRating_Response: markerPos = 4.2407407407407405
+12.7150 	DATA 	Mouse:  Left button up, pos=(1431,420)
+12.7158 	EXP 	RegulationRating_Response: markerPos = 4.246031746031746
+12.7218 	EXP 	RegulationRating_Response: markerPos = 4.0
+12.8650 	DATA 	Mouse: Left button down, pos=(1583,429)
+12.8704 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.8760 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.8815 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.8873 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.8932 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.8992 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9055 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9114 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9171 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9231 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9291 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9349 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9419 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9473 	DATA 	Mouse:  Left button up, pos=(1583,429)
+12.9483 	EXP 	RegulationRating_Response: markerPos = 4.648148148148148
+12.9539 	EXP 	RegulationRating_Response: markerPos = 5.0
+13.1101 	DATA 	Mouse: Left button down, pos=(1150,345)
+13.1178 	EXP 	RegulationRating_Response: markerPos = 3.502645502645503
+13.1237 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1297 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1354 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1411 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1469 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1530 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1589 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1646 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1705 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1762 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1821 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1880 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.1945 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.2011 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.2064 	DATA 	Mouse:  Left button up, pos=(1146,343)
+13.2072 	EXP 	RegulationRating_Response: markerPos = 3.4947089947089944
+13.2128 	EXP 	RegulationRating_Response: markerPos = 3.0
+13.6284 	DATA 	Mouse: Left button down, pos=(586,360)
+13.6355 	EXP 	RegulationRating_Response: markerPos = 2.0105820105820107
+13.6414 	EXP 	RegulationRating_Response: markerPos = 1.9841269841269842
+13.6475 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6538 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6599 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6658 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6718 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6778 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6836 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6896 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.6962 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.7014 	DATA 	Mouse:  Left button up, pos=(573,360)
+13.7024 	EXP 	RegulationRating_Response: markerPos = 1.9761904761904763
+13.7079 	EXP 	RegulationRating_Response: markerPos = 2.0
+13.8547 	DATA 	Mouse: Left button down, pos=(217,411)
+13.8614 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8678 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8739 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8798 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8858 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8916 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.8975 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9037 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9095 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9155 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9212 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9270 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9329 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9389 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9450 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9503 	DATA 	Mouse:  Left button up, pos=(217,411)
+13.9510 	EXP 	RegulationRating_Response: markerPos = 1.0343915343915344
+13.9564 	EXP 	RegulationRating_Response: markerPos = 1.0
+14.0981 	DATA 	Mouse: Left button down, pos=(712,373)
+14.1054 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1119 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1183 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1241 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1301 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1361 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1418 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1475 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1540 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1601 	EXP 	RegulationRating_Response: markerPos = 2.343915343915344
+14.1659 	EXP 	RegulationRating_Response: markerPos = 2.351851851851852
+14.1716 	EXP 	RegulationRating_Response: markerPos = 2.351851851851852
+14.1767 	DATA 	Mouse:  Left button up, pos=(744,372)
+14.1774 	EXP 	RegulationRating_Response: markerPos = 2.378306878306878
+14.1830 	EXP 	RegulationRating_Response: markerPos = 2.0
+14.3470 	DATA 	Mouse: Left button down, pos=(1194,403)
+14.3532 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3601 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3663 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3727 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3785 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3839 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3897 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.3954 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4016 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4078 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4136 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4201 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4264 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4328 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4387 	EXP 	RegulationRating_Response: markerPos = 3.619047619047619
+14.4440 	DATA 	Mouse:  Left button up, pos=(1204,404)
+14.4448 	EXP 	RegulationRating_Response: markerPos = 3.626984126984127
+14.4514 	EXP 	RegulationRating_Response: markerPos = 4.0
+14.7114 	DATA 	Mouse: Left button down, pos=(966,376)
+14.7217 	EXP 	RegulationRating_Response: markerPos = 3.015873015873016
+14.7279 	EXP 	RegulationRating_Response: markerPos = 2.984126984126984
+14.7340 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+14.7402 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7462 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7521 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7582 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7640 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7699 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7755 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7826 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7891 	EXP 	RegulationRating_Response: markerPos = 2.962962962962963
+14.7955 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+14.8015 	EXP 	RegulationRating_Response: markerPos = 2.9867724867724865
+14.8073 	EXP 	RegulationRating_Response: markerPos = 2.9867724867724865
+14.8123 	DATA 	Mouse:  Left button up, pos=(984,378)
+14.8130 	EXP 	RegulationRating_Response: markerPos = 3.0185185185185186
+14.8190 	EXP 	RegulationRating_Response: markerPos = 3.0
+14.9378 	DATA 	Mouse: Left button down, pos=(1564,394)
+14.9454 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9514 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9573 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9628 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9684 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9744 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9801 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9861 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9921 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+14.9977 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0036 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0092 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0147 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0206 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0256 	DATA 	Mouse:  Left button up, pos=(1564,394)
+15.0266 	EXP 	RegulationRating_Response: markerPos = 4.597883597883598
+15.0326 	EXP 	RegulationRating_Response: markerPos = 5.0
+15.1806 	DATA 	Mouse: Left button down, pos=(1087,349)
+15.1878 	EXP 	RegulationRating_Response: markerPos = 3.335978835978836
+15.1940 	EXP 	RegulationRating_Response: markerPos = 3.312169312169312
+15.2003 	EXP 	RegulationRating_Response: markerPos = 3.298941798941799
+15.2060 	EXP 	RegulationRating_Response: markerPos = 3.298941798941799
+15.2121 	EXP 	RegulationRating_Response: markerPos = 3.2936507936507935
+15.2176 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2235 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2297 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2359 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2419 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2482 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2540 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2597 	EXP 	RegulationRating_Response: markerPos = 3.291005291005291
+15.2654 	EXP 	RegulationRating_Response: markerPos = 3.2883597883597884
+15.2717 	EXP 	RegulationRating_Response: markerPos = 3.2751322751322753
+15.2781 	EXP 	RegulationRating_Response: markerPos = 3.2751322751322753
+15.2838 	DATA 	Mouse:  Left button up, pos=(1035,347)
+15.2847 	EXP 	RegulationRating_Response: markerPos = 3.2433862433862433
+15.2909 	EXP 	RegulationRating_Response: markerPos = 3.0
+15.4412 	DATA 	Mouse: Left button down, pos=(657,348)
+15.4491 	EXP 	RegulationRating_Response: markerPos = 2.1984126984126986
+15.4548 	EXP 	RegulationRating_Response: markerPos = 2.1984126984126986
+15.4605 	EXP 	RegulationRating_Response: markerPos = 2.195767195767196
+15.4667 	EXP 	RegulationRating_Response: markerPos = 2.195767195767196
+15.4725 	EXP 	RegulationRating_Response: markerPos = 2.1904761904761907
+15.4787 	EXP 	RegulationRating_Response: markerPos = 2.182539682539683
+15.4848 	EXP 	RegulationRating_Response: markerPos = 2.164021164021164
+15.4910 	EXP 	RegulationRating_Response: markerPos = 2.1375661375661377
+15.4972 	EXP 	RegulationRating_Response: markerPos = 2.1375661375661377
+15.5030 	DATA 	Mouse:  Left button up, pos=(600,358)
+15.5039 	EXP 	RegulationRating_Response: markerPos = 2.1031746031746033
+15.5101 	EXP 	RegulationRating_Response: markerPos = 2.0
+15.8324 	DATA 	Mouse: Left button down, pos=(228,403)
+15.8380 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8441 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8502 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8566 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8630 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8697 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8762 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8821 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8885 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.8946 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.9013 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.9079 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.9141 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.9195 	DATA 	Mouse:  Left button up, pos=(228,403)
+15.9203 	EXP 	RegulationRating_Response: markerPos = 1.0634920634920635
+15.9259 	EXP 	RegulationRating_Response: markerPos = 1.0
+16.0736 	DATA 	Mouse: Left button down, pos=(583,386)
+16.0808 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.0872 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.0934 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.0993 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1053 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1117 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1180 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1240 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1298 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1356 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1418 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1479 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1548 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1604 	DATA 	Mouse:  Left button up, pos=(583,386)
+16.1611 	EXP 	RegulationRating_Response: markerPos = 2.002645502645503
+16.1673 	EXP 	RegulationRating_Response: markerPos = 2.0
+16.2946 	DATA 	Mouse: Left button down, pos=(948,396)
+16.3015 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3074 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3134 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3194 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3268 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3328 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3389 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3447 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3507 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3568 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3629 	EXP 	RegulationRating_Response: markerPos = 2.9682539682539684
+16.3693 	EXP 	RegulationRating_Response: markerPos = 2.9814814814814814
+16.3751 	EXP 	RegulationRating_Response: markerPos = 2.9814814814814814
+16.3813 	EXP 	RegulationRating_Response: markerPos = 3.005291005291005
+16.3872 	EXP 	RegulationRating_Response: markerPos = 3.044973544973545
+16.3932 	EXP 	RegulationRating_Response: markerPos = 3.1005291005291005
+16.3984 	DATA 	Mouse:  Left button up, pos=(1026,404)
+16.3993 	EXP 	RegulationRating_Response: markerPos = 3.1005291005291005
+16.4054 	EXP 	RegulationRating_Response: markerPos = 3.0
+16.5227 	DATA 	Mouse: Left button down, pos=(1311,411)
+16.5295 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5354 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5414 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5472 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5532 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5594 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5649 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5712 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5773 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5828 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5888 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.5947 	EXP 	RegulationRating_Response: markerPos = 3.928571428571429
+16.6005 	EXP 	RegulationRating_Response: markerPos = 3.931216931216931
+16.6064 	EXP 	RegulationRating_Response: markerPos = 3.931216931216931
+16.6127 	EXP 	RegulationRating_Response: markerPos = 3.9365079365079367
+16.6188 	EXP 	RegulationRating_Response: markerPos = 3.9365079365079367
+16.6245 	EXP 	RegulationRating_Response: markerPos = 3.9576719576719577
+16.6305 	EXP 	RegulationRating_Response: markerPos = 3.9894179894179893
+16.6370 	EXP 	RegulationRating_Response: markerPos = 4.026455026455027
+16.6429 	EXP 	RegulationRating_Response: markerPos = 4.026455026455027
+16.6488 	EXP 	RegulationRating_Response: markerPos = 4.068783068783069
+16.6553 	EXP 	RegulationRating_Response: markerPos = 4.111111111111111
+16.6613 	EXP 	RegulationRating_Response: markerPos = 4.171957671957672
+16.6622 	DATA 	Mouse:  Left button up, pos=(1430,418)
+16.6671 	EXP 	RegulationRating_Response: markerPos = 4.0
+16.8033 	DATA 	Mouse: Left button down, pos=(1642,428)
+16.8104 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8165 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8234 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8294 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8353 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8412 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8471 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8530 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8606 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8670 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8736 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8795 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8863 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8927 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.8987 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.9050 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.9111 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.9178 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.9234 	DATA 	Mouse:  Left button up, pos=(1642,429)
+16.9242 	EXP 	RegulationRating_Response: markerPos = 4.804232804232804
+16.9302 	EXP 	RegulationRating_Response: markerPos = 5.0
+17.0816 	DATA 	Mouse: Left button down, pos=(1308,398)
+17.0891 	EXP 	RegulationRating_Response: markerPos = 3.9206349206349205
+17.0952 	EXP 	RegulationRating_Response: markerPos = 3.902116402116402
+17.1009 	EXP 	RegulationRating_Response: markerPos = 3.894179894179894
+17.1074 	EXP 	RegulationRating_Response: markerPos = 3.888888888888889
+17.1142 	EXP 	RegulationRating_Response: markerPos = 3.888888888888889
+17.1207 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1268 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1326 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1386 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1450 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1514 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1581 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1643 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1707 	EXP 	RegulationRating_Response: markerPos = 3.886243386243386
+17.1715 	DATA 	Mouse:  Left button up, pos=(1295,397)
+17.1766 	EXP 	RegulationRating_Response: markerPos = 4.0
+17.2981 	DATA 	Mouse: Left button down, pos=(720,383)
+17.3043 	EXP 	RegulationRating_Response: markerPos = 2.365079365079365
+17.3107 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3166 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3230 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3294 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3354 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3418 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3476 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3532 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3589 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3659 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3721 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3778 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3834 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3897 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.3954 	EXP 	RegulationRating_Response: markerPos = 2.357142857142857
+17.4014 	EXP 	RegulationRating_Response: markerPos = 2.3544973544973544
+17.4016 	DATA 	Mouse:  Left button up, pos=(707,384)
+17.4080 	EXP 	RegulationRating_Response: markerPos = 2.0
+17.7179 	DATA 	Mouse: Left button down, pos=(337,425)
+17.7249 	EXP 	RegulationRating_Response: markerPos = 1.3518518518518519
+17.7310 	EXP 	RegulationRating_Response: markerPos = 1.343915343915344
+17.7440 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7505 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7565 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7626 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7689 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7749 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7813 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7880 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.7944 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.8009 	EXP 	RegulationRating_Response: markerPos = 1.335978835978836
+17.8076 	EXP 	RegulationRating_Response: markerPos = 1.3386243386243386
+17.8136 	EXP 	RegulationRating_Response: markerPos = 1.3518518518518519
+17.8190 	DATA 	Mouse:  Left button up, pos=(346,422)
+17.8197 	EXP 	RegulationRating_Response: markerPos = 1.3756613756613756
+17.8266 	EXP 	RegulationRating_Response: markerPos = 1.0
+17.9423 	DATA 	Mouse: Left button down, pos=(769,412)
+17.9497 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9556 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9618 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9678 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9736 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9796 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9856 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9929 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+17.9991 	EXP 	RegulationRating_Response: markerPos = 2.4947089947089944
+18.0051 	EXP 	RegulationRating_Response: markerPos = 2.497354497354497
+18.0112 	EXP 	RegulationRating_Response: markerPos = 2.497354497354497
+18.0173 	EXP 	RegulationRating_Response: markerPos = 2.5
+18.0237 	EXP 	RegulationRating_Response: markerPos = 2.5
+18.0295 	DATA 	Mouse:  Left button up, pos=(779,412)
+18.0303 	EXP 	RegulationRating_Response: markerPos = 2.507936507936508
+18.0363 	EXP 	RegulationRating_Response: markerPos = 3.0
+18.1621 	DATA 	Mouse: Left button down, pos=(1095,405)
+18.1693 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.1752 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.1815 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.1873 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.1933 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.1996 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2058 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2117 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2176 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2236 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2296 	EXP 	RegulationRating_Response: markerPos = 3.357142857142857
+18.2358 	EXP 	RegulationRating_Response: markerPos = 3.367724867724868
+18.2423 	EXP 	RegulationRating_Response: markerPos = 3.367724867724868
+18.2489 	EXP 	RegulationRating_Response: markerPos = 3.388888888888889
+18.2554 	EXP 	RegulationRating_Response: markerPos = 3.425925925925926
+18.2622 	EXP 	RegulationRating_Response: markerPos = 3.462962962962963
+18.2624 	DATA 	Mouse:  Left button up, pos=(1153,405)
+18.2685 	EXP 	RegulationRating_Response: markerPos = 3.0
+18.4515 	DATA 	Mouse: Left button down, pos=(1477,424)
+18.4583 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4640 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4698 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4753 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4811 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4868 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4934 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.4992 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5051 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5112 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5169 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5227 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5287 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5350 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5410 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5468 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5519 	DATA 	Mouse:  Left button up, pos=(1477,424)
+18.5526 	EXP 	RegulationRating_Response: markerPos = 4.367724867724868
+18.5585 	EXP 	RegulationRating_Response: markerPos = 4.0
+18.7495 	DATA 	Mouse: Left button down, pos=(1706,402)
+18.7567 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7627 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7687 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7744 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7806 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7869 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7930 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.7990 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8050 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8114 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8177 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8243 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8309 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8367 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8420 	DATA 	Mouse:  Left button up, pos=(1706,402)
+18.8429 	EXP 	RegulationRating_Response: markerPos = 4.973544973544973
+18.8484 	EXP 	RegulationRating_Response: markerPos = 5.0
+19.0504 	DATA 	Keypress: escape
+19.5523 	EXP 	window1: mouseVisible = True

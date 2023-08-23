@@ -1,0 +1,162 @@
+8.5265 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000232C8594F10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000232C8594EB0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000232C8594BB0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000232CEC74490>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.5266 	EXP 	window1: mouseVisible = True
+8.5266 	EXP 	window1: backgroundImage = ''
+8.5267 	EXP 	window1: backgroundFit = 'none'
+8.5267 	EXP 	window1: mouseVisible = False
+8.5267 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.5268 	EXP 	window1: recordFrameIntervals = False
+8.5540 	EXP 	window1: recordFrameIntervals = True
+8.5847 	EXP 	Screen (0) actual frame rate measured at 358.43Hz
+8.5848 	EXP 	window1: recordFrameIntervals = False
+9.9951 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9957 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0286 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How are you feeling?', units='height', win=Window(...), wrapWidth=1)
+10.0343 	EXP 	window1: mouseVisible = True
+10.1246 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.02, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+10.1542 	EXP 	window1: mouseVisible = True
+10.1605 	EXP 	Created TrialRea_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TrialRea_NSB', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Negative Self Belief', units='height', win=Window(...), wrapWidth=1)
+10.1668 	EXP 	Created TrialRea_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TrialRea_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='REACT', units='height', win=Window(...), wrapWidth=1)
+10.1685 	EXP 	Created TrialRea_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TrialRea_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How are you feeling?', units='height', win=Window(...), wrapWidth=1)
+10.1714 	EXP 	window1: mouseVisible = True
+10.2395 	EXP 	Created TrialRea_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.02, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='TrialRea_RatingResponse', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+10.2493 	EXP 	window1: mouseVisible = True
+10.2522 	EXP 	Created TrialReg_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TrialReg_NSB', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Negative Self Belief 2', units='height', win=Window(...), wrapWidth=1)
+10.2540 	EXP 	Created TrialReg_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TrialReg_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='REACT', units='height', win=Window(...), wrapWidth=1)
+10.2557 	EXP 	Created TrialReg_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TrialReg_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How are you feeling?', units='height', win=Window(...), wrapWidth=1)
+10.2580 	EXP 	window1: mouseVisible = True
+10.3266 	EXP 	Created TrialReg_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.02, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='TrialReg_RatingResponse', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+10.3362 	EXP 	window1: mouseVisible = True
+10.3428 	EXP 	Rating_Response: autoLog = True
+10.3428 	EXP 	Rating_Response: markerPos = None
+10.3428 	EXP 	Rating_Response: styleTweaks = []
+10.3428 	EXP 	Rating_Response: styleTweaks = []
+10.3428 	EXP 	Rating_Response: styleTweaks = []
+10.3428 	EXP 	Rating_Response: styleTweaks = []
+10.3428 	EXP 	Rating_Response: contrast = 1.0
+10.3428 	EXP 	Rating_Response: autoLog = True
+10.3428 	EXP 	TrialRea_RatingResponse: autoLog = True
+10.3428 	EXP 	TrialRea_RatingResponse: markerPos = None
+10.3428 	EXP 	TrialRea_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialRea_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialRea_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialRea_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialRea_RatingResponse: contrast = 1.0
+10.3428 	EXP 	TrialRea_RatingResponse: autoLog = True
+10.3428 	EXP 	TrialReg_RatingResponse: autoLog = True
+10.3428 	EXP 	TrialReg_RatingResponse: markerPos = None
+10.3428 	EXP 	TrialReg_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialReg_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialReg_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialReg_RatingResponse: styleTweaks = []
+10.3428 	EXP 	TrialReg_RatingResponse: contrast = 1.0
+10.3428 	EXP 	TrialReg_RatingResponse: autoLog = True
+10.3428 	EXP 	GetReady_Text: autoDraw = True
+13.3417 	EXP 	Imported ManualNegativeStory.xlsx as conditions, 5 conditions, 1 params
+13.3420 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+13.3421 	EXP 	New trial (rep=0, index=0): {'NegativeStorySentences': 'I have an exam coming up.'}
+13.3489 	EXP 	GetReady_Text: autoDraw = False
+13.3489 	EXP 	StorySentence_Text: height = 0.05
+13.3489 	EXP 	StorySentence_Text: height = 0.05
+13.3489 	EXP 	StorySentence_Text: height = 0.05
+13.3489 	EXP 	StorySentence_Text: text = 'I have an exam coming up.'
+13.3489 	EXP 	StorySentence_Text: autoDraw = True
+16.3374 	EXP 	New trial (rep=0, index=1): {'NegativeStorySentences': 'I study for my exam day and night.'}
+16.3423 	EXP 	StorySentence_Text: autoDraw = False
+16.3423 	EXP 	StorySentence_Text: height = 0.05
+16.3423 	EXP 	StorySentence_Text: height = 0.05
+16.3423 	EXP 	StorySentence_Text: height = 0.05
+16.3423 	EXP 	StorySentence_Text: text = 'I study for my exam day and night.'
+16.3423 	EXP 	StorySentence_Text: autoDraw = True
+19.3375 	EXP 	New trial (rep=0, index=2): {'NegativeStorySentences': "I'm sleep deprived because I've been studying too much."}
+19.3425 	EXP 	StorySentence_Text: autoDraw = False
+19.3425 	EXP 	StorySentence_Text: height = 0.05
+19.3425 	EXP 	StorySentence_Text: height = 0.05
+19.3425 	EXP 	StorySentence_Text: height = 0.05
+19.3425 	EXP 	StorySentence_Text: text = "I'm sleep deprived because I've been studying too much."
+19.3425 	EXP 	StorySentence_Text: autoDraw = True
+22.3374 	EXP 	New trial (rep=0, index=3): {'NegativeStorySentences': 'I sleep through my alarms the day of my exam.'}
+22.3410 	EXP 	StorySentence_Text: autoDraw = False
+22.3410 	EXP 	StorySentence_Text: height = 0.05
+22.3410 	EXP 	StorySentence_Text: height = 0.05
+22.3410 	EXP 	StorySentence_Text: height = 0.05
+22.3410 	EXP 	StorySentence_Text: text = 'I sleep through my alarms the day of my exam.'
+22.3410 	EXP 	StorySentence_Text: autoDraw = True
+25.3372 	EXP 	New trial (rep=0, index=4): {'NegativeStorySentences': 'I fail my exam and my class.'}
+25.3410 	EXP 	StorySentence_Text: autoDraw = False
+25.3410 	EXP 	StorySentence_Text: height = 0.05
+25.3410 	EXP 	StorySentence_Text: height = 0.05
+25.3410 	EXP 	StorySentence_Text: height = 0.05
+25.3410 	EXP 	StorySentence_Text: text = 'I fail my exam and my class.'
+25.3410 	EXP 	StorySentence_Text: autoDraw = True
+28.3510 	EXP 	StorySentence_Text: autoDraw = False
+28.3510 	EXP 	Rating_Response: markerPos = None
+28.3510 	EXP 	Rating_Response: markerPos = None
+28.3510 	EXP 	Rating_Text: autoDraw = True
+28.3510 	EXP 	Rating_Response: autoDraw = True
+30.7397 	DATA 	Mouse: Left button down, pos=(674,325)
+30.7463 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7517 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7572 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7636 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7690 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7748 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7801 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7855 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7909 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.7968 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.8022 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.8076 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.8137 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.8185 	DATA 	Mouse:  Left button up, pos=(674,325)
+30.8193 	EXP 	Rating_Response: markerPos = 1.9407407407407407
+30.8249 	EXP 	Rating_Response: markerPos = 2.0
+31.2247 	DATA 	Mouse: Left button down, pos=(1429,152)
+31.2299 	EXP 	Rating_Text: autoDraw = False
+31.2299 	EXP 	Rating_Response: autoDraw = False
+31.2299 	EXP 	TrialRea_RatingResponse: markerPos = None
+31.2299 	EXP 	TrialRea_RatingResponse: markerPos = None
+31.2299 	EXP 	TrialRea_NSB: autoDraw = True
+31.3099 	DATA 	Mouse:  Left button up, pos=(1429,152)
+34.2258 	EXP 	TrialRea_Cue: autoDraw = True
+35.4317 	DATA 	Mouse: Left button down, pos=(1328,311)
+35.5316 	DATA 	Mouse:  Left button up, pos=(1328,311)
+46.2303 	EXP 	TrialRea_Cue: autoDraw = False
+46.2303 	EXP 	TrialRea_RatingText: autoDraw = True
+46.2303 	EXP 	TrialRea_RatingResponse: autoDraw = True
+46.2348 	EXP 	TrialRea_NSB: autoDraw = False
+46.7408 	DATA 	Mouse: Left button down, pos=(1286,301)
+46.7475 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7531 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7591 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7647 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7702 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7754 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7808 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7863 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7919 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.7977 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8031 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8085 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8141 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8195 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8251 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8310 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8369 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8425 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8480 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8532 	DATA 	Mouse:  Left button up, pos=(1286,301)
+46.8540 	EXP 	TrialRea_RatingResponse: markerPos = 4.207407407407407
+46.8593 	EXP 	TrialRea_RatingResponse: markerPos = 4.0
+47.2143 	DATA 	Mouse: Left button down, pos=(1563,98)
+47.2205 	EXP 	TrialRea_NSB: autoDraw = False
+47.2205 	EXP 	TrialRea_Cue: autoDraw = False
+47.2205 	EXP 	TrialRea_RatingText: autoDraw = False
+47.2205 	EXP 	TrialRea_RatingResponse: autoDraw = False
+47.2205 	EXP 	TrialReg_RatingResponse: markerPos = None
+47.2205 	EXP 	TrialReg_RatingResponse: markerPos = None
+47.2205 	EXP 	TrialReg_NSB: autoDraw = True
+47.2895 	DATA 	Mouse:  Left button up, pos=(1563,98)
+49.1593 	DATA 	Mouse: Left button down, pos=(1190,288)
+49.2682 	DATA 	Mouse:  Left button up, pos=(1190,288)
+49.9652 	DATA 	Keypress: escape
+50.5002 	EXP 	window1: mouseVisible = True

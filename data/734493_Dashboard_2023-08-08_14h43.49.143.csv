@@ -1,0 +1,6 @@
+﻿NegativeStorySentences,NSB,Story.thisRepN,Story.thisTrialN,Story.thisN,Story.thisIndex,GetReady_Text.started,GetRead_Cross.started,StorySentence_Text.started,participant,session,date,expName,psychopyVersion,frameRate,
+I have an exam coming up.,NSB 1,0,0,0,0,8.094364000018686,8.094364000018686,11.107569199986756,734493,001,2023-08-08_14h43.49.143,Dashboard,2023.1.2,336.0361850900775,
+I study for my exam day and night.,NSB 2,0,1,1,1,,,14.097299200017005,734493,001,2023-08-08_14h43.49.143,Dashboard,2023.1.2,336.0361850900775,
+I'm sleep deprived because I've been studying too much.,NSB 3,0,2,2,2,,,17.09831829997711,734493,001,2023-08-08_14h43.49.143,Dashboard,2023.1.2,336.0361850900775,
+I sleep through my alarms the day of my exam.,NSB 4,0,3,3,3,,,20.09790110005997,734493,001,2023-08-08_14h43.49.143,Dashboard,2023.1.2,336.0361850900775,
+,,,,,,,,23.09474810003303,,,,,,,

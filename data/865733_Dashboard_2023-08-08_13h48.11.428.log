@@ -1,0 +1,77 @@
+4.6647 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FBAA541D30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FBAA541CD0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FBAA5419D0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FBB0C9A310>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.6648 	EXP 	window1: mouseVisible = True
+4.6648 	EXP 	window1: backgroundImage = ''
+4.6648 	EXP 	window1: backgroundFit = 'none'
+4.6648 	EXP 	window1: mouseVisible = False
+4.6649 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.6649 	EXP 	window1: recordFrameIntervals = False
+4.6923 	EXP 	window1: recordFrameIntervals = True
+4.7228 	EXP 	Screen (0) actual frame rate measured at 359.85Hz
+4.7228 	EXP 	window1: recordFrameIntervals = False
+6.1310 	EXP 	Created GetReady_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='GetReady_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.1316 	EXP 	Created StorySentence_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='StorySentence_Text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.1651 	EXP 	Created Rating_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Rating_Text', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How are you feeling?', units='height', win=Window(...), wrapWidth=1)
+6.1706 	EXP 	window1: mouseVisible = True
+6.2601 	EXP 	Created Rating_Response = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.02, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Rating_Response', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.2904 	EXP 	window1: mouseVisible = True
+6.2967 	EXP 	Created Trial_NSB = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_NSB', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Negative Self Belief', units='height', win=Window(...), wrapWidth=1)
+6.3024 	EXP 	Created Trial_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trial_Cue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='REACT', units='height', win=Window(...), wrapWidth=1)
+6.3043 	EXP 	Created Trial_RatingText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Trial_RatingText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How are you feeling?', units='height', win=Window(...), wrapWidth=1)
+6.3072 	EXP 	window1: mouseVisible = True
+6.3860 	EXP 	Created Trial_RatingResponse = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.02, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='Trial_RatingResponse', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.3962 	EXP 	window1: mouseVisible = True
+6.4041 	EXP 	Rating_Response: autoLog = True
+6.4041 	EXP 	Rating_Response: markerPos = None
+6.4041 	EXP 	Rating_Response: styleTweaks = []
+6.4041 	EXP 	Rating_Response: styleTweaks = []
+6.4041 	EXP 	Rating_Response: styleTweaks = []
+6.4041 	EXP 	Rating_Response: styleTweaks = []
+6.4041 	EXP 	Rating_Response: contrast = 1.0
+6.4041 	EXP 	Rating_Response: autoLog = True
+6.4041 	EXP 	Trial_RatingResponse: autoLog = True
+6.4041 	EXP 	Trial_RatingResponse: markerPos = None
+6.4041 	EXP 	Trial_RatingResponse: styleTweaks = []
+6.4041 	EXP 	Trial_RatingResponse: styleTweaks = []
+6.4041 	EXP 	Trial_RatingResponse: styleTweaks = []
+6.4041 	EXP 	Trial_RatingResponse: styleTweaks = []
+6.4041 	EXP 	Trial_RatingResponse: contrast = 1.0
+6.4041 	EXP 	Trial_RatingResponse: autoLog = True
+6.4041 	EXP 	GetReady_Text: autoDraw = True
+9.4019 	EXP 	Imported ManualNegativeStory.xlsx as conditions, 5 conditions, 1 params
+9.4021 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+9.4022 	EXP 	New trial (rep=0, index=0): {'NegativeStorySentences': 'I have an exam coming up.'}
+9.4086 	EXP 	GetReady_Text: autoDraw = False
+9.4086 	EXP 	StorySentence_Text: height = 0.05
+9.4086 	EXP 	StorySentence_Text: height = 0.05
+9.4086 	EXP 	StorySentence_Text: height = 0.05
+9.4086 	EXP 	StorySentence_Text: text = 'I have an exam coming up.'
+9.4086 	EXP 	StorySentence_Text: autoDraw = True
+12.3973 	EXP 	New trial (rep=0, index=1): {'NegativeStorySentences': 'I study for my exam day and night.'}
+12.4028 	EXP 	StorySentence_Text: autoDraw = False
+12.4028 	EXP 	StorySentence_Text: height = 0.05
+12.4028 	EXP 	StorySentence_Text: height = 0.05
+12.4028 	EXP 	StorySentence_Text: height = 0.05
+12.4028 	EXP 	StorySentence_Text: text = 'I study for my exam day and night.'
+12.4028 	EXP 	StorySentence_Text: autoDraw = True
+15.3977 	EXP 	New trial (rep=0, index=2): {'NegativeStorySentences': "I'm sleep deprived because I've been studying too much."}
+15.4035 	EXP 	StorySentence_Text: autoDraw = False
+15.4035 	EXP 	StorySentence_Text: height = 0.05
+15.4035 	EXP 	StorySentence_Text: height = 0.05
+15.4035 	EXP 	StorySentence_Text: height = 0.05
+15.4035 	EXP 	StorySentence_Text: text = "I'm sleep deprived because I've been studying too much."
+15.4035 	EXP 	StorySentence_Text: autoDraw = True
+18.3975 	EXP 	New trial (rep=0, index=3): {'NegativeStorySentences': 'I sleep through my alarms the day of my exam.'}
+18.4016 	EXP 	StorySentence_Text: autoDraw = False
+18.4016 	EXP 	StorySentence_Text: height = 0.05
+18.4016 	EXP 	StorySentence_Text: height = 0.05
+18.4016 	EXP 	StorySentence_Text: height = 0.05
+18.4016 	EXP 	StorySentence_Text: text = 'I sleep through my alarms the day of my exam.'
+18.4016 	EXP 	StorySentence_Text: autoDraw = True
+21.3976 	EXP 	New trial (rep=0, index=4): {'NegativeStorySentences': 'I fail my exam and my class.'}
+21.4009 	EXP 	StorySentence_Text: autoDraw = False
+21.4009 	EXP 	StorySentence_Text: height = 0.05
+21.4009 	EXP 	StorySentence_Text: height = 0.05
+21.4009 	EXP 	StorySentence_Text: height = 0.05
+21.4009 	EXP 	StorySentence_Text: text = 'I fail my exam and my class.'
+21.4009 	EXP 	StorySentence_Text: autoDraw = True
+24.4368 	EXP 	window1: mouseVisible = True
